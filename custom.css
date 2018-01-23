@@ -1,0 +1,19 @@
+li {
+  padding: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features div {
+  flex: 1 1 30%;
+  background-color: rgba(0,0,0,0.1);
+  margin: 10px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+}
