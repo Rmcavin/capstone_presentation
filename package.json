@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Rmcavin/capstone_presentation#readme",
   "dependencies": {
+    "highlight": "^0.2.4",
     "reveal": "0.0.4"
   }
 }
