@@ -1,0 +1,22 @@
+{
+  "name": "capstone_presentation",
+  "version": "1.0.0",
+  "description": "Presentation slides for my capstone project scoreKeeper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rmcavin/capstone_presentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rmcavin/capstone_presentation/issues"
+  },
+  "homepage": "https://github.com/Rmcavin/capstone_presentation#readme",
+  "dependencies": {
+    "reveal": "0.0.4"
+  }
+}
