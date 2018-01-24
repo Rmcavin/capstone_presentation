@@ -1,5 +1,17 @@
-li {
-  padding: 10px;
+
+.desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.desc-container {
+  margin: 50px !important;
+}
+
+.me {
+  height: 450px;
 }
 
 .features {
@@ -18,4 +30,37 @@ li {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.stack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stack img {
+  flex: 1 1 33%;
+  height: 100px;
+  border: none;
+}
+
+.reveal section img {
+  border: none !important;
+}
+
+.lastSlide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lastSlide .div {
+  flex: 1 1 40%;
+}
+
+.reveal i{
+    font-family: 'FontAwesome';
+    font-style: normal;
 }

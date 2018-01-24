@@ -3,6 +3,7 @@
 		<link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="custom.css">
 		<link rel="stylesheet" href="sky.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="reveal">
@@ -27,11 +28,16 @@
         <!-- THIRD SLIDE -->
         <section>
           <h3>ScoreKeeper</h3>
-            <div>Early stage product that aims to <b>reduce the time teachers spend on assessment and scoring</b>.</div>
-            <br>
-            <div>Gradebook functionality for managing grades, students, courses, and assignments.</div>
-            <br>
-            <div>Future development plans that include automatically graded multiple choice assessments, simplified rubric creation and grading, and better student progress monitoring systems.</div>
+						<div class="desc">
+							<div class="desc-container">
+								<div>Early stage product that aims to <b>reduce the time teachers spend on assessment and scoring</b>.</div>
+		            <br>
+		            <div>Gradebook functionality for managing grades, students, courses, and assignments.</div>
+		            <br>
+		            <div>Future plans include automatically graded assessments, rubric creation and grading, and better student progress monitoring systems.</div>
+							</div>
+							<img class="me" src="chemteacher.jpg" alt="me as a teacher">
+						</div>
         </section>
 
         <!-- FOURTH SLIDE -->
@@ -59,9 +65,84 @@
             <source src="cavin_capstone.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-
         </section>
 
+        <!--Sixth Slide -->
+        <section>
+          <h3>Tech Stack</h3>
+          <div class="stack">
+            <img src="stack_images/html.svg" alt="html">
+            <img src="stack_images/css.svg" alt="css">
+            <img src="stack_images/javascript.svg" alt="javascript">
+            <img src="stack_images/react.svg" alt="react">
+            <img src="stack_images/node.svg" alt="node">
+            <img src="stack_images/express.svg" alt="express">
+            <img src="stack_images/postgres.svg" alt="postgreSQL">
+            <img src="stack_images/knex.png" alt="knex">
+						<img src="stack_images/heroku.svg" alt="heroku">
+          </div>
+        </section>
+
+				<!--Seventh Slide -->
+				<section>
+					<h3>Database Design</h3>
+					<img src="ERD.png" alt="entity relationship diagram">
+				</section>
+
+				<!--Eighth Slide -->
+				<section>
+					<h3>Technical Challenges</h3>
+					<div>
+						<div><b>Complexity of Database</b> - required research and practice with multijoins.</div>
+						<br>
+						<div><b>State Management</b> - challenging updates in tables.</div>
+						<br>
+						<div><b>Authentication</b> - two login options made this extra challenging.</div>
+						<br>
+						<div><b>Authorization</b> - managing user access to views in React took a lot of research.</div>
+					</div>
+				</section>
+
+				<!--Ninth Slide -->
+				<section>
+					<h3>Refactoring</h3>
+						<div>Use Redux for state management</div>
+						<br>
+						<div>Optimize React front end to remove redundant renders</div>
+						<br>
+						<div>Improve student creation to eliminate the chance of duplicate students</div>
+				</section>
+
+				<!--Tenth Slide -->
+				<section>
+					<h3>Future Plans</h3>
+					<div>
+						<div>Add Firebase Firestore database to store assessment and rubric documents.</div>
+						<br>
+						<div>Enable teachers to create and assign assessments and rubrics.</div>
+						<br>
+						<div>Add current assignments section to student view, enable them to complete assessments in the app.</div>
+						<br>
+						<div>Add view where teachers can monitor each student and view stats and graphs of performance over time.</div>
+					</div>
+				</section>
+
+				<section>
+					<h3>Rachel Cavin</h3>
+					<div class="lastSlide">
+					<div>
+						<img src="MeResize.jpg" alt="Headshot of me">
+					</div>
+					<div>
+						<div><i class="fa fa-github" aria-hidden="true"></i>   github.com/Rmcavin</div>
+						<br>
+						<div><i class="fa fa-linkedin" aria-hidden="true"></i>   linkedin.com/in/rmcavin</div>
+						<br>
+						<div><i class="fa fa-external-link" aria-hidden="true"></i>   RachelCavin.com</div>
+						<br>
+						<div><i class="fa fa-envelope-o" aria-hidden="true"></i>   Rmcavin@gmail.com</div>
+					</div>
+				</section>
 			</div>
 		</div>
 		<script src="index.js"></script>
